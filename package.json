@@ -1,10 +1,11 @@
 {
   "name": "electron-and-rust",
   "version": "0.1.0",
-  "description": "",
+  "description": "An Electron app that using Rust via Neon",
   "main": "./src/index.js",
-  "author": "Philip Van Raalte <phil.vanraalte@gmail.com>",
+  "author": "Philip Van Raalte",
   "license": "MIT",
+  "repository": "https://github.com/FIL1994/electron-and-rust.git",
   "scripts": {
     "start": "electron .",
     "build": "electron-build-env neon build"
