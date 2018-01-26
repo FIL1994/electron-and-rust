@@ -61,6 +61,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "num_cpus"
+version = "1.8.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+dependencies = [
+ "libc 0.2.36 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
 name = "regex"
 version = "0.2.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -96,6 +104,7 @@ version = "0.1.0"
 dependencies = [
  "neon 0.1.22 (registry+https://github.com/rust-lang/crates.io-index)",
  "neon-build 0.1.22 (registry+https://github.com/rust-lang/crates.io-index)",
+ "num_cpus 1.8.0 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]
@@ -135,6 +144,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 "checksum neon 0.1.22 (registry+https://github.com/rust-lang/crates.io-index)" = "6f6078a0767408131206f802cb4ee2b1d78a035f23c209c3c0cb1dbe258a8737"
 "checksum neon-build 0.1.22 (registry+https://github.com/rust-lang/crates.io-index)" = "0220c1150ca0ac00df8fc1001dde699cf17762f208f43c497d90e91c910c0a17"
 "checksum neon-runtime 0.1.22 (registry+https://github.com/rust-lang/crates.io-index)" = "9a53b08f4dfc0ebc9ecb8bd8a02ace763e833d657f03614293254420a413c036"
+"checksum num_cpus 1.8.0 (registry+https://github.com/rust-lang/crates.io-index)" = "c51a3322e4bca9d212ad9a158a02abc6934d005490c054a2778df73a70aa0a30"
 "checksum regex 0.2.5 (registry+https://github.com/rust-lang/crates.io-index)" = "744554e01ccbd98fff8c457c3b092cd67af62a555a43bfe97ae8a0451f7799fa"
 "checksum regex-syntax 0.4.2 (registry+https://github.com/rust-lang/crates.io-index)" = "8e931c58b93d86f080c734bfd2bce7dd0079ae2331235818133c8be7f422e20e"
 "checksum semver 0.9.0 (registry+https://github.com/rust-lang/crates.io-index)" = "1d7eb9ef2c18661902cc47e535f9bc51b78acd254da71d375c2f6720d9a40403"

@@ -1,5 +1,7 @@
 const electron = require("electron");
-const addon = require("./native");
+const { hello, threading_hint } = require("./native");
+
+const now = require("performance-now");
 
 const { app, BrowserWindow, ipcMain } = electron;
 
@@ -9,6 +11,3 @@ app.on("ready", () => {
   mainWindow = new BrowserWindow({});
   mainWindow.loadURL(`file://${__dirname}/index.html`);
 });
-
-
-console.log(addon.hello());
