@@ -1,0 +1,21 @@
+{
+  "name": "test",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Philip Van Raalte <phil.vanraalte@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "install": "neon build",
+    "start": "electron .",
+    "build": "electron-build-env neon build"
+  },
+  "devDependencies": {
+    "electron": "^1.7.11",
+    "electron-build-env": "^0.2.0",
+    "neon-cli": "^0.1.22"
+  },
+  "dependencies": {
+    "neon-hello": "^0.1.1"
+  }
+}
